@@ -1,0 +1,54 @@
+header {
+  margin: 50px 50px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 25px;
+  color: #000080;
+}
+
+ul {
+  display: flex;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000080;
+  font-weight: bold;
+}
+
+li:nth-child(n+2) {
+  margin-left: 50px;
+}
+
+.main {
+ position: relative;
+}
+
+.main-copy {
+  transform: translate(0, 390px);
+  z-index: 0;
+}
+
+.main-copy p {
+  font-size: 80px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 50%;
+  z-index: 1;
+
+}
+
+.navy-box {
+  background-color: #000080;
+  width: 1300px;
+  height: 180px;
+}
